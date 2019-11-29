@@ -12,5 +12,9 @@
     "require" : {
         "squizlabs/php_codesniffer": "^3.3.1",
         "wp-coding-standards/wpcs": "^2.2.0"
+    },
+    "scripts" : {
+        "post-install-cmd": "\"vendor/bin/phpcs\" --config-set installed_paths ../../..",
+        "post-update-cmd" : "\"vendor/bin/phpcs\" --config-set installed_paths ../../.."
     }
 }

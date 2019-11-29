@@ -5,14 +5,12 @@ makotokw PHP Coding Standards
 
 ```
 git clone https://github.com/makotokw/php-coding-standards.git
-```
-
-```
-phpcs --config-set installed_paths /path/to/php-coding-standards
+cd php-coding-standards
+composer install
 ```
 
 ## Usage
 
 ```
-phpcs --standard=Arcadia *.php
+php-coding-standards/vendor/bin/phpcs --standard=Arcadia *.php
 ```
