@@ -5,3 +5,6 @@
 
 ### JetBrains IDEs ###
 .idea
+
+### composer ###
+/vendor/

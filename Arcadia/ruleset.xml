@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <ruleset name="Arcadia">
   <description>The Arcadia coding standards.</description>
-  <rule ref="PSR2">
+  <rule ref="PSR12">
     <exclude name="Generic.Files.LineLength"/>
   </rule>
   <!-- <rule ref="Squiz.NamingConventions.ValidVariableName"/> -->
