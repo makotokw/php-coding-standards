@@ -4,6 +4,4 @@
   <rule ref="PSR12">
     <exclude name="Generic.Files.LineLength"/>
   </rule>
-  <!-- <rule ref="Squiz.NamingConventions.ValidVariableName"/> -->
-  <rule ref="Zend.NamingConventions"/>
 </ruleset>
